@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+
+	<!--Google WebFonts-->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,200,400,300,600,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Gudea:700' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+	[% LogoImageTag %]
+	<h1>[% "name" %]</h1>
+	<p>
+    [% "Address" %]<br>
+    <!--[% "hours" %]<br>-->
+    [% "phone_1" %]<br>
+	<!--[% "Phone_1" %]-->
+	</p>
+	<!--<p>Products recycled: [% "products" %]</p>-->
+	<!--<p>[% "product_images" %]</p>-->
+
+	<div class="prod_cat_img_div">
+		<div id="div-qr-code">
+			<!--An example QR code below-->
+			<!--<img id='img-qr-code' src='https://dl-web.dropbox.com/get/public/RecycleMapQRCodes/WilsonFoods.png?_subject_uid=48746262&w=AADOfiqqcVVfCHzSQ_alZk1_SgZSzIMntU06Xmlx0hZ39w'/>-->
+			<!-- The QR code in the data -->
+			[% "qrimagetag" %]
+		</div>
+		<!-- The images in the data -->
+		[% "category_image" %]
+		<!-- Example images -->
+			<!--<img class="prod_cat" src="https://photos-6.dropbox.com/t/1/AAALxP6kQUEBK7r-ayiiODGIM6PDGpoOun9kINRduV30oA/12/48746262/png/32x32/3/_/1/2/AppliancesAndElectrical.png/qMOTBFkh8h2SKeffo7c6-KWAGUhH_T5JDmFlQib-9ik?size=1600x1200"/><img class="prod_cat" src="https://photos-1.dropbox.com/t/1/AABBG_S3NGGTQUolIUh17uSsXJ2h00BM-0ZLYBjwrPonZA/12/48746262/png/32x32/3/_/1/2/Electronics.png/jhdUhTmEXxxFXQLtUoYbCcBk21FnXZuRK_iacAoGXhM?size=1280x960"/><img class="prod_cat" src="https://photos-5.dropbox.com/t/1/AADS1NO81ncTOJXsVO2-4c__gY6KIYaXb1IolTzKU96ubA/12/48746262/png/32x32/3/_/1/2/Furniture.png/WiFxJEXwKcIlQx3QZYZg3q5zaCUgblfx9MiWlguuIhU?size=1280x960"/><img class="prod_cat" src="https://photos-3.dropbox.com/t/1/AACVS_iVIwGGMjJNU7MafRTkpiSbXaDO5fnTVrzno5yLww/12/48746262/png/32x32/3/_/1/2/LightingProducts.png/9Qdgpwj-s7dt8a3KTyQc-6IYTsLqYHJuQEkvTsSfXEE?size=1280x960"/><img class="prod_cat" src="https://photos-6.dropbox.com/t/1/AABGarsPgkFPMFL_JnT6u2Pb9W_15ylou_23zBVvpwSQEA/12/48746262/png/32x32/3/_/1/2/Metals.png/E3qmDo8fzl0rd77zIWN22DYmISEWbJ0RArIlJBZEnfI?size=1280x960"/><img class="prod_cat" src="https://photos-1.dropbox.com/t/1/AABoWxOqzGfQgKRd1OUWZc-NneVYuobhfjsUlAmhvHho3Q/12/48746262/png/32x32/3/_/1/2/Paint.png/21UkUwrHM2C82AIxMl4XmZxoOlKlzprJ08ETSC-hpFo?size=1280x960"/><img class="prod_cat" src="https://photos-1.dropbox.com/t/1/AAC81a3gsVy129cGmngDbmUMw3ERGFJg1RHngS8nMOkA_A/12/48746262/png/32x32/3/_/1/2/Plastics.png/xckrEwYFzI8PO2LSzUs3pPoJHasIqXDzQljgtqpfxpI?size=1280x960"/><img class="prod_cat" src="https://photos-3.dropbox.com/t/1/AACgpiwp5u_P87_LXGdkraV9DDL4DpWnCMHn_MOMJR0teA/12/48746262/png/32x32/3/_/1/2/books.png/WnNm4caFfCOBExONzvLb_KJ5GcSdpXr1YoloBKs3LdY?size=1600x1200"/>-->
+		<!--<img class="prod_cat" src="https://dl.dropboxusercontent.com/u/48746262/Icons/AppliancesAndElectrical.png"/>-->
+
+	</div>
+
+    </body>
+
+	<style>
+		/* ==========================================================================
+		   HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
+		   ========================================================================== */
+
+		html,
+		button,
+		input,
+		select,
+		textarea {
+		    color: #222;
+		}
+
+		body {
+		    font-size: 0.7em;
+		    line-height: 1.4;
+		}
+
+		hr {
+		    display: block;
+		    height: 1px;
+		    border: 0;
+		    border-top: 1px solid #ccc;
+		    margin: 0.1em 0;
+		    padding: 0;
+		}
+
+		img {
+		    vertical-align: middle;
+		}
+
+		fieldset {
+		    border: 0;
+		    margin: 0;
+		    padding: 0;
+		}
+
+		textarea {
+		    resize: vertical;
+		}
+
+
+		/* ==========================================================================
+		   Author's custom styles
+		   ========================================================================== */
+
+		body {			
+			/*background-color: #F1E5D7; *//*#DDDBF0; transparent; #F1E5D7;*/
+			font-family:  Open Sans, Helvetica;
+			font-size: 1.3em;
+			font-weight: 400;
+			/*opacity: 0.5;*/
+		}
+
+		hr {
+
+		}
+
+		h1 {
+			font-family: 'N.O.- Movement', 'Open Sans';
+			font-weight: 200;	
+			font-size: 1.4em;
+			text-align:center;
+			color: #178f52;
+			margin-top: 0px;
+		}
+
+		p {
+ 			text-align:center;
+		}
+
+		img#img-facility-logo{
+			height:70px;
+			display: block;
+    		margin-left: auto;
+    		margin-right: auto ;
+		}
+		img.prod_cat{
+			vertical-align: left;
+			height: 150%;
+		}
+		img#img-qr-code{
+			vertical-align: right;
+			height: 150%;
+		}
+		div.facility-logo{
+    		margin-top: 0px;
+    		margin-bottom:-20px;
+		}
+		div.prod_cat_img_div{
+			height:50px;
+			width: 100%;
+			float:left;
+		}
+		div#div-qr-code{
+			height: 120px;
+			float:right;
+			margin-top: -10px
+		}
+	</style>
+</html>
